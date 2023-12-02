@@ -1,0 +1,46 @@
+/* footer.css */
+/* footer.css */
+
+.footer {
+
+    /* Set the background color of the footer */
+    color: white;
+    /* Set the text color to white */
+    padding: 10px;
+    /* Add padding for better aesthetics */
+    text-align: center;
+    /* Center-align the content */
+    position: fixed;
+    /* Set the position to fixed */
+    bottom: 0;
+    /* Stick the footer to the bottom of the page */
+    width: 100%;
+    /* Set the width to 100% */
+}
+
+
+
+/* Footer.css */
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    /* Adjust this as needed */
+    max-width: 300px;
+    /* Adjust the maximum width of the icons container */
+    margin: 0 auto;
+    /* Center the icons horizontally */
+}
+
+/* Add additional styling as needed */
+
+
+.footer a {
+    color: white;
+    /* Set the color of links to white */
+    margin: 0 15px;
+    /* Add margin between the links for better spacing */
+    text-decoration: none;
+    /* Remove underline from links */
+    font-size: 18px;
+    /* Set the font size of links */
+}

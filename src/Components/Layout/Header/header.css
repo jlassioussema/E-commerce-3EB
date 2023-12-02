@@ -1,0 +1,44 @@
+/* header.css */
+
+.header_choix {
+    background-color: black;
+    /* Set the background color of the navigation bar to black */
+    padding: 10px;
+    /* Add some padding for better aesthetics */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_choix a {
+    color: white;
+    /* Set the color of the links to white */
+    text-decoration: none;
+    /* Remove the underline from links */
+    margin: 0 10px;
+    /* Add some margin between the links for better spacing */
+}
+
+.header_choixone,
+.header_choixtwo,
+.header_choixthree {
+    display: flex;
+    align-items: center;
+}
+
+.useicone {
+    color: white;
+    /* Set the color of icons to white */
+    margin-right: 5px;
+    /* Add some margin between the icons and text */
+    cursor: pointer;
+    /* Set cursor to pointer for clickable elements */
+}
+
+.image {
+    width: 40px;
+    /* Set the width of the logo */
+    height: auto;
+}
+
+/* Add additional styling as needed */

@@ -1,0 +1,58 @@
+/* signin.css */
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+    margin: auto;
+    /* Add this line for centering */
+}
+
+.Signin {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+    font-size: 12px;
+
+}
+
+.styleform {
+    display: flex;
+    flex-direction: column;
+}
+
+.stylemail {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.sylepass {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.sign_button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sign_button:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,55 @@
+/* loginpage.css */
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid #007bff;
+  margin: auto;
+  /* Add this line for centering */
+}
+
+.LoginPage {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.loginStyleForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginStyleMail,
+.loginStylePass {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error {
+  color: red;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.loginSignButton {
+  background-color: #45a049;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.loginSignButton:hover {
+  background-color: #f6f8f9;
+}

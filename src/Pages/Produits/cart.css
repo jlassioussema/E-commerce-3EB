@@ -1,0 +1,25 @@
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.product-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-item img {
+    max-width: 30%;
+    /* Ajuste la largeur de l'image pour qu'elle ne dépasse pas la largeur du conteneur */
+    height: auto;
+    object-fit: contain;
+    /* Ajuste la taille de l'image tout en maintenant les proportions */
+    object-position: center center;
+    /* Centre l'image à l'intérieur du conteneur */
+    display: block;
+    /* Supprime l'espace supplémentaire en dessous de l'image */
+    margin: 0 auto;
+    /* Centre l'image horizontalement dans le conteneur */
+}
